@@ -1,7 +1,7 @@
 # GitHub Demo
 
 ## create repository on github
-> _will use listed command to connect local directory to it_
+> _will use listed command to connect local directory to this repository_
 
 ## create local repository
 > md git_demo_gh  
