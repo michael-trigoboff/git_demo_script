@@ -47,3 +47,6 @@ _merge conflict!_
 > vi README.md  
 > git commit -a -m 'fixed conflict'  
 > git push -u origin master  
+
+## pull change from server
+> git pull
