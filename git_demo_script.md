@@ -4,17 +4,15 @@
 > _will use listed command to connect local directory to this repository_
 
 ## create local repository
-> md git_demo_gh  
-> cd git_demo_gh  
+> md git_demo  
 > git init  
-> cp ../start_git/README.md .  
 > vi README.md  
 > git status  
 > git add README.md  
 > git commit -a -m 'first'  
 
 ## connect to GitHub repository
-> git remote add origin https://github.com/michael-trigoboff/git_demo_gh.git  
+> git remote add origin https://github.com/michael-trigoboff/git_demo.git  
 > git push -u origin master  
 
 ## create branch for today's work
