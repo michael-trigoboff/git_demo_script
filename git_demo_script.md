@@ -51,6 +51,11 @@ _merge conflict!_
 ## pull change from server
 > git pull
 
-## change file, decide to go back to previous commit
+## change file go back to previous commit
 > vi README.md  
 > git checkout -- README.md
+
+## get version of file from previous commit
+> git log --stat  
+__display previous commits__  
+> git checkout <commit_hash> README.md  
