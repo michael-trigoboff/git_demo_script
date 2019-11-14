@@ -50,3 +50,7 @@ _merge conflict!_
 
 ## pull change from server
 > git pull
+
+## change file, decide to go back to previous commit
+> vi README.md  
+> git checkout -- README.md
