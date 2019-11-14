@@ -59,3 +59,16 @@ _merge conflict!_
 > _display hashes of previous commits_  
 > git log --stat  
 > git checkout <commit_hash> README.md  
+
+## display remote repositories
+> git remote  
+> git remote -v  
+
+## add remote repository  
+> git remote add <short_name> <repo_url>
+
+## rename remote (i.e. change short_name)
+> git remote rename <old_short_name> <new_short_name>  
+
+## remove remote
+> git remote remove <short_name>  
