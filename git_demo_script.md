@@ -57,5 +57,5 @@ _merge conflict!_
 
 ## get version of file from previous commit
 > git log --stat  
-__display previous commits__  
+_display previous commits_  
 > git checkout <commit_hash> README.md  
