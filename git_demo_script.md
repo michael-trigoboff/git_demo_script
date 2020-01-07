@@ -9,7 +9,7 @@
 > vi README.md  
 > git status  
 > git add README.md  
-> git commit -a -m 'first'  
+> git commit -am 'first'  
 
 ## connect to GitHub repository
 > git remote add origin https://github.com/michael-trigoboff/git_demo.git  
@@ -19,7 +19,7 @@
 > git branch 11/12  
 > git checkout 11/12  
 > vi README.md  
-> git commit -a -m 'branch 11/12'  
+> git commit -am 'branch 11/12'  
 > git push -u origin 11/12  
 
 ## fast-forward merge to master
@@ -30,13 +30,13 @@
 > git branch 11/12.b  
 > git checkout 11/12.b  
 > vi README.md  
-> git commit -a -m 'branch 11/12.b'  
+> git commit -am 'branch 11/12.b'  
 > git push -u origin 11/12.b  
 
 ## abandon branch 11/12.b
 > git checkout master  
 > vi README.md  
-> git commit -a -m 'abandoned 11/12.b'  
+> git commit -am 'abandoned 11/12.b'  
 > git push -u origin master  
 
 ## changed mind, merging branch 11/12.b
@@ -45,7 +45,7 @@ _merge conflict!_
 
 ## fix conflict
 > vi README.md  
-> git commit -a -m 'fixed conflict'  
+> git commit -am 'fixed conflict'  
 > git push -u origin master  
 
 ## pull change from server
