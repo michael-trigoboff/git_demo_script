@@ -72,3 +72,6 @@ _merge conflict!_
 
 ## remove remote
 > git remote remove <short_name>  
+
+## clone remote repository to empty directory (without creating subdirectory)
+> git clone <repository_url> .
