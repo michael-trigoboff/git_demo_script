@@ -16,31 +16,31 @@
 > git push -u origin master  
 
 ## create branch for today's work
-> git branch 11/12  
-> git checkout 11/12  
+> git branch branch5  
+> git checkout branch5  
 > vi README.md  
-> git commit -am 'branch 11/12'  
-> git push -u origin 11/12  
+> git commit -am 'branch branch5'  
+> git push -u origin branch5  
 
 ## fast-forward merge to master
 > git checkout master  
-> git merge 11/12  
+> git merge branch5  
 
 ## create branch for continued work today
-> git branch 11/12.b  
-> git checkout 11/12.b  
+> git branch branch5.b  
+> git checkout branch5.b  
 > vi README.md  
-> git commit -am 'branch 11/12.b'  
-> git push -u origin 11/12.b  
+> git commit -am 'branch branch5.b'  
+> git push -u origin branch5.b  
 
-## abandon branch 11/12.b
+## abandon branch branch5.b
 > git checkout master  
 > vi README.md  
-> git commit -am 'abandoned 11/12.b'  
+> git commit -am 'abandoned branch5.b'  
 > git push -u origin master  
 
-## changed mind, merging branch 11/12.b
-> git merge 11/12.b  
+## changed mind, merging branch branch5.b
+> git merge branch5.b  
 _merge conflict!_  
 
 ## fix conflict
@@ -56,7 +56,7 @@ _merge conflict!_
 > git checkout -- README.md
 
 ## get version of file from previous commit
-> _display hashes of previous commits_  
+_display hashes of previous commits_  
 > git log --stat  
 > git checkout <commit_hash> README.md  
 
